@@ -173,7 +173,8 @@ namespace proj_clinica
         {
             try
             {
-                if(e.RowIndex >= 0 && e.RowIndex < DgtMedico.Rows.Count - (DgtMedico.AllowUserToAddRows ? 1 : 0))
+                if(e.RowIndex >= 0 && e.RowIndex < DgtMedico.Rows.Count - (DgtMedico.AllowUserToAddRows ? 1 : 0) &&
+                   DgtMedico.Columns[e.ColumnIndex].HeaderText == "NOME")
                 {
                     DataGridViewRow row = DgtMedico.Rows[e.RowIndex];
 

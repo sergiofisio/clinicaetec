@@ -56,7 +56,8 @@ namespace proj_clinica
                     cod_prod INT AUTO_INCREMENT PRIMARY KEY,
                     descricao_prod VARCHAR(50) NOT NULL UNIQUE,
                     valor DECIMAL(4,2) NOT NULL,
-                    validade TIMESTAMP NOT NULL
+                    validade TIMESTAMP NOT NULL,
+                    quantidade int not null default(0)
                 );",
 
                 @"CREATE TABLE IF NOT EXISTS tb_atendimento (

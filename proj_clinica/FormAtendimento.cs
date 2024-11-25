@@ -191,7 +191,7 @@ namespace proj_clinica
         {
             try
             {
-                if(e.RowIndex >= 0)
+                if(e.RowIndex >= 0 && DtgAtendimento.Columns[e.ColumnIndex].HeaderText == "nome_paciente")
                 {
                     DataGridViewRow row = DtgAtendimento.Rows[e.RowIndex];
 

@@ -24,7 +24,7 @@ namespace proj_clinica
         {
             try
             {
-                if(e.RowIndex >= 0)
+                if(e.RowIndex >= 0 && DgtMedicamento.Columns[e.ColumnIndex].HeaderText == "DESCRICAO")
                 {
                     DataGridViewRow row = DgtMedicamento.Rows[e.RowIndex];
 

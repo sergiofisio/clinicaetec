@@ -230,7 +230,7 @@
             DgtMedicamento.Size = new Size(526, 229);
             DgtMedicamento.TabIndex = 36;
             DgtMedicamento.Visible = false;
-            DgtMedicamento.CellContentClick += DgtMedicamento_CellContentClick;
+            DgtMedicamento.CellClick += DgtMedicamento_CellContentClick;
             // 
             // BtnLimpar
             // 

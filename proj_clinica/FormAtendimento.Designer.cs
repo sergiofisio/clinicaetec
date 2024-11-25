@@ -171,7 +171,7 @@
             DtgAtendimento.Size = new Size(654, 229);
             DtgAtendimento.TabIndex = 45;
             DtgAtendimento.Visible = false;
-            DtgAtendimento.CellContentClick += DtgAtendimento_CellContentClick;
+            DtgAtendimento.CellClick += DtgAtendimento_CellContentClick;
             // 
             // lblGrid
             // 
